@@ -1,0 +1,180 @@
+/* iPad Pro */
+@media (min-width: 992px) and (max-width: 1199px) {
+	h1 {
+		font-size: 38px;
+		font-weight: 800;
+	}
+	.lead {
+		font-size: 16px;
+		line-height: 28px;
+	}
+	.section-02 .review-box p {
+		font-size: 14px;
+		line-height: 18px;
+	}
+	h3 {
+		font-size: 16px;
+	}
+	h4 {
+		font-size: 12px;
+	}
+}
+
+/* iPad */
+@media (min-width: 760px) and (max-width: 991px) {
+	h1 {
+		font-size: 54px;
+	}
+	.section-01 .col-md-6 {
+		width: 100%;
+	}
+	.section-01 {
+		padding: 100px 15px 100px 15px;
+	}
+	h3 {
+		font-size: 14px;
+	}
+	h4 {
+		font-size: 10px;
+	}
+	.section-02 .review-box p {
+		font-size: 14px;
+		line-height: 18px;
+	}
+}
+
+/* Mobile Landscape */
+@media (min-width: 560px) and (max-width: 759px) {
+	.col-reverse {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.section-01 {
+		padding: 50px 15px;
+	}
+	h1 {
+		font-size: 44px;
+	}
+	h2 {
+		font-size: 14px;
+	}
+	.col-auto {
+		width: 100%;
+	}
+	.section-01 form input {
+		border-radius: 25px 25px 0px 0px;
+		padding-right: 0;
+	}
+	.section-01 form button {
+		border-radius: 0px 0px 25px 25px;
+		padding-right: 0;
+		width: 100%;
+	}
+	.section-01 form input, .section-01 form button {
+		padding: 20px 15px;
+		text-align: center;
+	}
+	.lead {
+		font-size: 17px;
+		line-height: 27px;
+	}
+	.section-01 .truck {
+		padding: 25px 0px;
+	}
+	.m-padding {
+		padding: 15px;
+	}
+	.m-padding {
+		padding: 0px 25px 25px 25px;
+	}
+	h3 {
+		font-size: 15px;
+		margin: 5px 0px 0px 0px;
+	}
+	h4 {
+		font-size: 12px;
+	}
+	.section-01 {
+		background-attachment: unset;
+	}
+}
+
+@media screen and (min-width:992px) {
+
+}
+
+/* Mobile */
+@media only screen and (max-width: 559px) {
+	.col-reverse {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.section-01 {
+		padding: 50px 15px;
+	}
+	h1 {
+		font-size: 44px;
+	}
+	h2 {
+		font-size: 14px;
+	}
+	.col-auto {
+		width: 100%;
+	}
+	.section-01 form input {
+		border-radius: 25px 25px 0px 0px;
+		padding-right: 0;
+	}
+	.section-01 form button {
+		border-radius: 0px 0px 25px 25px;
+		padding-right: 0;
+		width: 100%;
+	}
+	.section-01 form input, .section-01 form button {
+		padding: 20px 15px;
+		text-align: center;
+	}
+	.lead {
+		font-size: 17px;
+		line-height: 27px;
+	}
+	.section-01 .truck {
+		padding: 25px 0px;
+	}
+	.m-padding {
+		padding: 15px;
+	}
+	.m-padding {
+		padding: 0px 25px 25px 25px;
+	}
+	h3 {
+		font-size: 15px;
+		margin: 5px 0px 0px 0px;
+	}
+	h4 {
+		font-size: 12px;
+	}
+	.section-01 {
+		background-attachment: unset;
+	}
+}
+
+/* iPhone */
+@media only screen and (max-width: 375px) {
+
+}
+
+/* Galaxy S5 */
+@media only screen and (max-width: 360px) {
+
+}
+
+/* iPhone 5 */
+@media only screen and (max-width: 320px) {
+
+}
+
+/* Galaxy Fold */
+@media only screen and (max-width: 280px) {
+
+}
